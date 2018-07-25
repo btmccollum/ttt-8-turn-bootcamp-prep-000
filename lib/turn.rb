@@ -28,10 +28,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index, char = "X")
   else
-      loop do
-        turn(board)
-        if valid_move?(board, index) == true
-          break
+      turn(board)
 end
 end
  end 
