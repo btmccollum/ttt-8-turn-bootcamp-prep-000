@@ -32,7 +32,5 @@ def turn(board)
         turn(board)
         if valid_move?(board, index) == true
           break
-          
-  end
  end 
 end 
