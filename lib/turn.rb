@@ -29,7 +29,5 @@ def turn(board)
     move(board, index, char = "X")
   else
       turn(board)
-end
-end
  end 
 end 
