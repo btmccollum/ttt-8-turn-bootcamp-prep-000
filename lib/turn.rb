@@ -20,3 +20,7 @@ def move(board, index, char = "X")
   board[index] = char
   display_board(board)
 end 
+
+def turn()
+  
+end 
