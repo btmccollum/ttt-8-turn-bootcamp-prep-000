@@ -29,7 +29,7 @@ def turn(board)
     move(board, index, char = "X")
   else
     until valid_move?(board, index) == true
-    
+      turn
   end
  end 
 end 
